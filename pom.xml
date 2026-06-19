@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>fr.paris.lutece.tools</groupId>
+	<artifactId>glowroot-plugin</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Glowroot Lutece plugin</name>
+	<description>Glowroot Lutece plugin</description>
+	<packaging>jar</packaging>
+
+	<properties>
+		<glowroot.version>0.14.0-beta.3</glowroot.version>
+	</properties>
+
+	<dependencies>
+		<!-- Glowroot Plugin API -->
+		<dependency>
+			<groupId>org.glowroot</groupId>
+			<artifactId>glowroot-agent-plugin-api</artifactId>
+			<version>${glowroot.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.glowroot</groupId>
+			<artifactId>glowroot-agent-api</artifactId>
+			<version>${glowroot.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>

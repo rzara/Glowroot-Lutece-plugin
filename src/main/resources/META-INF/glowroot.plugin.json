@@ -1,0 +1,18 @@
+{
+	"name": "Lutece Plugin",
+	"id": "lutece-plugin",
+	"properties": [
+		{
+			"name": "includePageIDInTransactionName",
+			"type": "boolean",
+			"label": "Page transaction name",
+			"checkboxLabel": "Include the Page ID in the transaction name",
+			"description": "This will create a separate transaction per page."
+		}
+	],
+	"aspects": [
+		"fr.paris.lutece.tools.glowroot.XPageApplicationAspect",
+		"fr.paris.lutece.tools.glowroot.PageServiceAspect",
+		"fr.paris.lutece.tools.glowroot.PortletContentServiceAspect"
+	]
+}
