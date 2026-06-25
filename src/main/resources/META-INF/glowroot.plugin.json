@@ -13,6 +13,7 @@
 	"aspects": [
 		"fr.paris.lutece.tools.glowroot.XPageApplicationAspect",
 		"fr.paris.lutece.tools.glowroot.PageServiceAspect",
-		"fr.paris.lutece.tools.glowroot.PortletContentServiceAspect"
+		"fr.paris.lutece.tools.glowroot.PortletContentServiceAspect",
+		"fr.paris.lutece.tools.glowroot.AppTemplateServiceAspect"
 	]
 }
